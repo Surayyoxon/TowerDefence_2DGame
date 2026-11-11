@@ -20,18 +20,18 @@ public class EconomyManager : MonoBehaviour
         UpdateMoneyUI();
     }
 
-    // Pul yetarliligini tekshirish
+    // Check Money
     public bool HasEnoughMoney(int amount)
     {
-        return currentMoney >= amount;
+        return amount > 0 && currentMoney >= amount;
     }
 
-    // Tower sotib olish uchun pul ayirish
+    // Spend Money
     public bool TrySpendMoney(int amount)
     {
-        if (amount < 0 || !HasEnoughMoney(amount))
+        if (!HasEnoughMoney(amount))
         {
-            Debug.Log("Pul yetarli emas!");
+            Debug.Log("Not Enough Money!");
             return false;
         }
 
@@ -39,13 +39,13 @@ public class EconomyManager : MonoBehaviour
 
         UpdateMoneyUI();
 
-        Debug.Log("Money spent: " + amount);
+        Debug.Log("Money Spent: " + amount);
         Debug.Log("Current Money: " + currentMoney);
 
         return true;
     }
 
-    // Enemy o'ldirilganda pul qo'shish
+    // Earn Money
     public void AddMoney(int amount)
     {
         if (amount <= 0)
@@ -55,7 +55,7 @@ public class EconomyManager : MonoBehaviour
 
         UpdateMoneyUI();
 
-        Debug.Log("Money earned: " + amount);
+        Debug.Log("Money Earned: " + amount);
         Debug.Log("Current Money: " + currentMoney);
     }
 
