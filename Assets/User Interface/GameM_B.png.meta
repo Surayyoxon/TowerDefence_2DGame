@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 9675b1049489bba4884cea2dfff10690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5080052624716890456
+    second: GameM_B_0
+  - first:
+      213: 2964385941526706929
+    second: GameM_B_1
+  - first:
+      213: 5629186587874691683
+    second: GameM_B_2
+  - first:
+      213: 4786817105477397231
+    second: GameM_B_3
+  - first:
+      213: -2768134630271777176
+    second: GameM_B_4
+  - first:
+      213: 5419266214046352787
+    second: GameM_B_5
+  - first:
+      213: 8919997048930458461
+    second: GameM_B_6
+  - first:
+      213: 5138178035594884647
+    second: GameM_B_7
+  - first:
+      213: -7946497568702927897
+    second: GameM_B_8
+  - first:
+      213: 6527745640307535026
+    second: GameM_B_9
+  - first:
+      213: -6363307564875546679
+    second: GameM_B_10
+  - first:
+      213: 8164224881992979090
+    second: GameM_B_11
+  - first:
+      213: -8880332676253958684
+    second: GameM_B_12
+  - first:
+      213: -8723268204456964160
+    second: GameM_B_13
+  - first:
+      213: 984660968439019918
+    second: GameM_B_14
+  - first:
+      213: -6741823558014509448
+    second: GameM_B_15
+  - first:
+      213: 987573908384566172
+    second: GameM_B_16
+  - first:
+      213: 5232025193412211762
+    second: GameM_B_17
+  - first:
+      213: -1405609998832666788
+    second: GameM_B_18
+  - first:
+      213: -1251548728334842137
+    second: GameM_B_19
+  - first:
+      213: 4083678308888488266
+    second: GameM_B_20
+  - first:
+      213: 7480876632687443712
+    second: GameM_B_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameM_B_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 703
+        width: 349
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae75779d070089b0800000000000000
+      internalID: -5080052624716890456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_1
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 709
+        width: 372
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa7cddce4d932920800000000000000
+      internalID: 2964385941526706929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 725
+        width: 342
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a0aa08063ee1e40800000000000000
+      internalID: 5629186587874691683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_3
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 704
+        width: 594
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea6eb8bbc03e6240800000000000000
+      internalID: 4786817105477397231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 450
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8668130583c9599d0800000000000000
+      internalID: -2768134630271777176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 452
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395428fb8e9153b40800000000000000
+      internalID: 5419266214046352787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_6
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 452
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b580b4e023acb70800000000000000
+      internalID: 8919997048930458461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_7
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 452
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726f85c33b97e4740800000000000000
+      internalID: 5138178035594884647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_8
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 452
+        width: 208
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebe4f8409e58b190800000000000000
+      internalID: -7946497568702927897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_9
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 492
+        width: 151
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bca2aa0316379a50800000000000000
+      internalID: 6527745640307535026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_10
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 492
+        width: 150
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf7907eb7df0b7a0800000000000000
+      internalID: -6363307564875546679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_11
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 492
+        width: 153
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292d89536472d4170800000000000000
+      internalID: 8164224881992979090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_12
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 492
+        width: 150
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edb6902b78b2c480800000000000000
+      internalID: -8880332676253958684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 24
+        width: 537
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf02e039c9b0f680800000000000000
+      internalID: -8723268204456964160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_14
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 311
+        width: 414
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89ffff0fe73aad00800000000000000
+      internalID: 984660968439019918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_15
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 268
+        width: 588
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e5f26913b3072a0800000000000000
+      internalID: -6741823558014509448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_16
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 223
+        width: 413
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bc4bebc3194bd00800000000000000
+      internalID: 987573908384566172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_17
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 51
+        width: 190
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ba356133eb9840800000000000000
+      internalID: 5232025193412211762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_18
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 51
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5777de37254e7ce0800000000000000
+      internalID: -1405609998832666788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_19
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 30
+        width: 315
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e68284001b91aee0800000000000000
+      internalID: -1251548728334842137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 134
+        width: 414
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49244229c32ca830800000000000000
+      internalID: 4083678308888488266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameM_B_21
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 45
+        width: 413
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ffadb79a961d760800000000000000
+      internalID: 7480876632687443712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GameM_B_0: -5080052624716890456
+      GameM_B_1: 2964385941526706929
+      GameM_B_10: -6363307564875546679
+      GameM_B_11: 8164224881992979090
+      GameM_B_12: -8880332676253958684
+      GameM_B_13: -8723268204456964160
+      GameM_B_14: 984660968439019918
+      GameM_B_15: -6741823558014509448
+      GameM_B_16: 987573908384566172
+      GameM_B_17: 5232025193412211762
+      GameM_B_18: -1405609998832666788
+      GameM_B_19: -1251548728334842137
+      GameM_B_2: 5629186587874691683
+      GameM_B_20: 4083678308888488266
+      GameM_B_21: 7480876632687443712
+      GameM_B_3: 4786817105477397231
+      GameM_B_4: -2768134630271777176
+      GameM_B_5: 5419266214046352787
+      GameM_B_6: 8919997048930458461
+      GameM_B_7: 5138178035594884647
+      GameM_B_8: -7946497568702927897
+      GameM_B_9: 6527745640307535026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

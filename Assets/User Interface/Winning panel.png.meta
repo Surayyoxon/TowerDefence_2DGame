@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: cedeacc3c424c7345a33507141e8bda0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 805449471492412847
+    second: Winning panel_0
+  - first:
+      213: -1810691443316188701
+    second: Winning panel_1
+  - first:
+      213: -1477625704915437687
+    second: Winning panel_2
+  - first:
+      213: 5911362759665533865
+    second: Winning panel_3
+  - first:
+      213: -6765423363788593310
+    second: Winning panel_4
+  - first:
+      213: -8023847834272337458
+    second: Winning panel_5
+  - first:
+      213: -6689283736901301000
+    second: Winning panel_6
+  - first:
+      213: -9145474431403170760
+    second: Winning panel_7
+  - first:
+      213: 6026522837194940342
+    second: Winning panel_8
+  - first:
+      213: 3232572842607395467
+    second: Winning panel_9
+  - first:
+      213: 5665341646329258301
+    second: Winning panel_10
+  - first:
+      213: -3414132064155949981
+    second: Winning panel_11
+  - first:
+      213: -6239658567160622892
+    second: Winning panel_12
+  - first:
+      213: -8098182411662485464
+    second: Winning panel_13
+  - first:
+      213: -8473800928800712993
+    second: Winning panel_14
+  - first:
+      213: 6545168147281821516
+    second: Winning panel_15
+  - first:
+      213: 6528869114320265283
+    second: Winning panel_16
+  - first:
+      213: -851329055839567561
+    second: Winning panel_17
+  - first:
+      213: -6568173819911999342
+    second: Winning panel_18
+  - first:
+      213: 8720957693471904118
+    second: Winning panel_19
+  - first:
+      213: 8426729015860720932
+    second: Winning panel_20
+  - first:
+      213: 6765799202627517173
+    second: Winning panel_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Winning panel_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 761
+        width: 747
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5d4d0e6088d2b00800000000000000
+      internalID: 805449471492412847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_1
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 791
+        width: 295
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e99c4bc9b12fd6e0800000000000000
+      internalID: -1810691443316188701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_2
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 766
+        width: 181
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987778b004b6e7be0800000000000000
+      internalID: -1477625704915437687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 766
+        width: 182
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a346543c11690250800000000000000
+      internalID: 5911362759665533865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 235
+        width: 906
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267a04e9b436c12a0800000000000000
+      internalID: -6765423363788593310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 566
+        width: 118
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f86a28e095a090800000000000000
+      internalID: -8023847834272337458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 573
+        width: 168
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc4334f1e3ea23a0800000000000000
+      internalID: -6689283736901301000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_7
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 567
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834ebcd957fb41180800000000000000
+      internalID: -9145474431403170760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 668
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf98cd279282a350800000000000000
+      internalID: 6026522837194940342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_9
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 685
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82403a9fd76cdc20800000000000000
+      internalID: 3232572842607395467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_10
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 656
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31aea806365f9e40800000000000000
+      internalID: 5665341646329258301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_11
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 566
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364a6bbf9f09e90d0800000000000000
+      internalID: -3414132064155949981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_12
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 566
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d01ba0a7974869a0800000000000000
+      internalID: -6239658567160622892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_13
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 400
+        width: 168
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8289a8aa00a7d9f80800000000000000
+      internalID: -8098182411662485464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_14
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 400
+        width: 158
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6557d83f2076a80800000000000000
+      internalID: -8473800928800712993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_15
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 400
+        width: 134
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f3fed80cb15da50800000000000000
+      internalID: 6545168147281821516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_16
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 403
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34024183ed33b9a50800000000000000
+      internalID: 6528869114320265283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_17
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 250
+        width: 230
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731c6b7fbb87f24f0800000000000000
+      internalID: -851329055839567561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_18
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 251
+        width: 280
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290ff11e5b829d4a0800000000000000
+      internalID: -6568173819911999342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 34
+        width: 500
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6715a9c01d0170970800000000000000
+      internalID: 8720957693471904118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_20
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 35
+        width: 479
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425fad8a461c1f470800000000000000
+      internalID: 8426729015860720932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Winning panel_21
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 35
+        width: 499
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fafb3e2782f4ed50800000000000000
+      internalID: 6765799202627517173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Winning panel_0: 805449471492412847
+      Winning panel_1: -1810691443316188701
+      Winning panel_10: 5665341646329258301
+      Winning panel_11: -3414132064155949981
+      Winning panel_12: -6239658567160622892
+      Winning panel_13: -8098182411662485464
+      Winning panel_14: -8473800928800712993
+      Winning panel_15: 6545168147281821516
+      Winning panel_16: 6528869114320265283
+      Winning panel_17: -851329055839567561
+      Winning panel_18: -6568173819911999342
+      Winning panel_19: 8720957693471904118
+      Winning panel_2: -1477625704915437687
+      Winning panel_20: 8426729015860720932
+      Winning panel_21: 6765799202627517173
+      Winning panel_3: 5911362759665533865
+      Winning panel_4: -6765423363788593310
+      Winning panel_5: -8023847834272337458
+      Winning panel_6: -6689283736901301000
+      Winning panel_7: -9145474431403170760
+      Winning panel_8: 6026522837194940342
+      Winning panel_9: 3232572842607395467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
