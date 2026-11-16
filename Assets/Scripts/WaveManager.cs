@@ -48,9 +48,18 @@ public class WaveManager : MonoBehaviour
 
     private IEnumerator WaveRoutine()
     {
+        // UIManager Start() ishlashini kutish
+        yield return null;
+
         while (currentWaveIndex < waves.Length)
         {
             WaveData wave = waves[currentWaveIndex];
+
+            // Wave UI yangilash
+            if (UIManager.Instance != null)
+            {
+                UIManager.Instance.SetWave(currentWaveIndex + 1);
+            }
 
             Debug.Log(
                 "========== " + wave.waveName + " START =========="
@@ -58,7 +67,8 @@ public class WaveManager : MonoBehaviour
 
             yield return StartCoroutine(SpawnWave(wave));
 
-            // Barcha enemylar yo'qolishini kutish
+            // Barcha enemylar o'ldirilishini yoki
+            // Base'ga yetib borishini kutish
             yield return new WaitUntil(() => aliveEnemies == 0);
 
             Debug.Log(
@@ -67,6 +77,7 @@ public class WaveManager : MonoBehaviour
 
             currentWaveIndex++;
 
+            // Keyingi wave
             if (currentWaveIndex < waves.Length)
             {
                 Debug.Log("Next Wave boshlanishiga tayyorgarlik...");
@@ -78,11 +89,16 @@ public class WaveManager : MonoBehaviour
         }
 
         Debug.Log("LEVEL COMPLETED!");
+
+        // Barcha wave tugadi
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ShowWinPanel();
+        }
     }
 
     private IEnumerator SpawnWave(WaveData wave)
     {
-        // Enemylarni aralash tartibda chiqarish uchun ro'yxat
         List<int> spawnQueue = new List<int>();
 
         int[] remaining = new int[4];
@@ -95,7 +111,7 @@ public class WaveManager : MonoBehaviour
             totalEnemies += remaining[i];
         }
 
-        // Har xil enemylarni navbat bilan joylashtirish
+        // Enemylarni aralash tartibda chiqarish
         while (spawnQueue.Count < totalEnemies)
         {
             for (int i = 0; i < 4; i++)
@@ -108,7 +124,7 @@ public class WaveManager : MonoBehaviour
             }
         }
 
-        // Enemylarni spawn qilish
+        // Enemy spawn
         for (int i = 0; i < spawnQueue.Count; i++)
         {
             GameObject enemy = enemySpawner.SpawnEnemy(
@@ -121,7 +137,9 @@ public class WaveManager : MonoBehaviour
                     enemy.GetComponent<EnemyWaveMember>();
 
                 if (member == null)
+                {
                     member = enemy.AddComponent<EnemyWaveMember>();
+                }
 
                 aliveEnemies++;
                 member.Initialize(this);
@@ -136,6 +154,7 @@ public class WaveManager : MonoBehaviour
         }
     }
 
+    // Enemy o'ldirilganda yoki Base'ga yetganda chaqiriladi
     public void EnemyDefeated()
     {
         aliveEnemies--;

@@ -6,7 +6,7 @@ public class BaseHealth : MonoBehaviour
     [Header("Base Settings")]
     [SerializeField] private float maxHealth = 100f;
 
-    [Header("Health UI")]
+    [Header("Health UI (ixtiyoriy - asosiy bar UIManager'da)")]
     [SerializeField] private Slider healthSlider;
 
     private float currentHealth;
@@ -26,26 +26,24 @@ public class BaseHealth : MonoBehaviour
         if (isDestroyed || damage <= 0)
             return;
 
-        currentHealth -= damage;
-        currentHealth = Mathf.Max(0, currentHealth);
-
-        Debug.Log("BASE HP: " + currentHealth + " / " + maxHealth);
+        currentHealth = Mathf.Max(0f, currentHealth - damage);
 
         UpdateHealthUI();
 
-        if (currentHealth <= 0)
-        {
+        if (currentHealth <= 0f)
             DestroyBase();
-        }
     }
 
     private void UpdateHealthUI()
     {
-        if (healthSlider == null)
-            return;
+        if (UIManager.Instance != null)
+            UIManager.Instance.SetBaseHealth(currentHealth, maxHealth);
 
-        healthSlider.maxValue = maxHealth;
-        healthSlider.value = currentHealth;
+        if (healthSlider != null)
+        {
+            healthSlider.maxValue = maxHealth;
+            healthSlider.value = currentHealth;
+        }
     }
 
     private void DestroyBase()
@@ -55,8 +53,10 @@ public class BaseHealth : MonoBehaviour
 
         isDestroyed = true;
 
-        Debug.Log("GAME OVER! BASE DESTROYED!");
-
-        Time.timeScale = 0f;
+        // Time.timeScale = 0 ni UIManager o'zi qo'yadi
+        if (UIManager.Instance != null)
+            UIManager.Instance.ShowDiedPanel();
+        else
+            Time.timeScale = 0f;
     }
 }

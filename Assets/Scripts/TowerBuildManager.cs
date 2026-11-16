@@ -1,16 +1,9 @@
-
 using UnityEngine;
 
 public class TowerBuildManager : MonoBehaviour
 {
     [Header("Tower Prefabs")]
     [SerializeField] private GameObject[] towerPrefabs;
-
-    [Header("Tower Prices")]
-    [SerializeField] private int[] towerPrices = { 100, 150, 200, 300 };
-
-    [Header("Economy")]
-    [SerializeField] private EconomyManager economyManager;
 
     [Header("Camera")]
     [SerializeField] private Camera mainCamera;
@@ -24,17 +17,18 @@ public class TowerBuildManager : MonoBehaviour
             mainCamera = Camera.main;
     }
 
+    // Narx va pul endi bitta joyda - UIManager'da
+    private bool HasEnoughMoney(int index)
+    {
+        return UIManager.Instance != null &&
+               UIManager.Instance.GetCoins() >= UIManager.Instance.GetTowerPrice(index);
+    }
+
     public void SelectTower(int index)
     {
         if (index < 0 || index >= towerPrefabs.Length)
         {
             Debug.LogError("Tower Index noto'g'ri: " + index);
-            return;
-        }
-
-        if (index >= towerPrices.Length)
-        {
-            Debug.LogError("Tower narxi belgilanmagan!");
             return;
         }
 
@@ -44,18 +38,15 @@ public class TowerBuildManager : MonoBehaviour
             return;
         }
 
-        if (economyManager == null)
+        if (UIManager.Instance == null)
         {
-            Debug.LogError("EconomyManager ulanmagan!");
+            Debug.LogError("UIManager topilmadi!");
             return;
         }
 
-        // Pulni tekshirish
-        int price = towerPrices[index];
-
-        if (!economyManager.HasEnoughMoney(price))
+        if (!HasEnoughMoney(index))
         {
-            Debug.Log("Pul yetarli emas! Kerakli pul: " + price);
+            Debug.Log("Pul yetarli emas!");
             selectedTowerPrefab = null;
             selectedTowerIndex = -1;
             return;
@@ -63,21 +54,13 @@ public class TowerBuildManager : MonoBehaviour
 
         selectedTowerPrefab = towerPrefabs[index];
         selectedTowerIndex = index;
-
-        Debug.Log(
-            "Tanlandi: " + selectedTowerPrefab.name +
-            " | Price: " + price
-        );
     }
 
     // TowerDragItem.OnEndDrag chaqiradi
     public bool TryPlaceTower(int index, Vector2 screenPosition)
     {
-        // Tanlangan tower mavjudligini tekshirish
         if (selectedTowerPrefab == null || selectedTowerIndex != index)
-        {
             SelectTower(index);
-        }
 
         if (selectedTowerPrefab == null)
             return false;
@@ -88,63 +71,34 @@ public class TowerBuildManager : MonoBehaviour
             return false;
         }
 
-        if (economyManager == null)
-        {
-            Debug.LogError("EconomyManager ulanmagan!");
-            return false;
-        }
-
-        int towerPrice = towerPrices[index];
-
-        // Pulni yana bir marta tekshirish
-        if (!economyManager.HasEnoughMoney(towerPrice))
+        if (!HasEnoughMoney(index))
         {
             Debug.Log("Pul yetarli emas!");
             return false;
         }
 
-        // Screen Position -> World Position
         Vector3 screenPos = screenPosition;
-
         screenPos.z = Mathf.Abs(mainCamera.transform.position.z);
 
-        Vector2 worldPos =
-            mainCamera.ScreenToWorldPoint(screenPos);
+        Vector2 worldPos = mainCamera.ScreenToWorldPoint(screenPos);
 
-        // TowerPlace aniqlash
-        Collider2D[] hits =
-            Physics2D.OverlapPointAll(worldPos);
-
-        Debug.Log("Topilgan collider soni: " + hits.Length);
+        Collider2D[] hits = Physics2D.OverlapPointAll(worldPos);
 
         foreach (Collider2D hit in hits)
         {
-            TowerPlace place =
-                hit.GetComponentInParent<TowerPlace>();
+            TowerPlace place = hit.GetComponentInParent<TowerPlace>();
 
             if (place == null)
                 continue;
 
-            // Tower qurish
             if (place.TryBuildTower(selectedTowerPrefab))
             {
-                // Faqat muvaffaqiyatli qurilgandan keyin pul ayiriladi
-                bool spent = economyManager.TrySpendMoney(towerPrice);
-
-                if (!spent)
-                {
+                // Pul UIManager orqali yechiladi -> coin UI va tower tugmalari yangilanadi
+                if (!UIManager.Instance.BuyTower(index))
                     Debug.LogError("Tower qurildi, lekin pul yechilmadi!");
-                    return false;
-                }
-
-                Debug.Log(
-                    selectedTowerPrefab.name +
-                    " sotib olindi! -" + towerPrice
-                );
 
                 selectedTowerPrefab = null;
                 selectedTowerIndex = -1;
-
                 return true;
             }
 
@@ -155,7 +109,6 @@ public class TowerBuildManager : MonoBehaviour
         Debug.LogWarning("TowerPlace topilmadi!");
         selectedTowerPrefab = null;
         selectedTowerIndex = -1;
-
         return false;
     }
 }

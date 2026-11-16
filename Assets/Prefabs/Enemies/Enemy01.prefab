@@ -201,5 +201,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  coinReward: 20
+  healthFill: {fileID: 7169316858791146535, guid: e1fe5d3ec4271704f8513a4c0312d7ff, type: 3}
+  healthBarOffset: {x: 0, y: 1, z: 0}
   animator: {fileID: 876416921104643758}
   deathTrigger: Die
